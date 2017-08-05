@@ -1,0 +1,26 @@
+{
+  "name": "socket-server",
+  "version": "1.0.0",
+  "description": "Socket Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Game-Jam-DACSC-admin/Server.git"
+  },
+  "keywords": [
+    "Socket",
+    "Server"
+  ],
+  "author": "ZoneTwelve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Game-Jam-DACSC-admin/Server/issues"
+  },
+  "dependencies": {
+    "socket.io": "~2.0.3"
+  },
+  "homepage": "https://github.com/Game-Jam-DACSC-admin/Server#readme"
+}
