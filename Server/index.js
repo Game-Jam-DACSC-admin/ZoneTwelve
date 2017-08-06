@@ -17,13 +17,21 @@ module.exports = function(socket){
     var index = group.indexOf(socket);
     if(index>-1)
       group.splice(index, 1);
+    leave(socket.id, group);
   });
 }
 
 function join(socket, group){
   // var index = group.indexOf(socket);
+  var uid = socket.id;
   group.map(function(usr){
-    socket.emit("group", {msg:"hello new user", uid:usr.id});
-    usr.emit("group", {msg:"new user join", uid:socket.id});
-  })
+    socket.emit("group", {uid:usr.id, join:""});
+    usr.emit("group", {uid:uid, join:""});
+  });
+}
+
+function leave(uid, group){
+  group.map(function(usr){
+    usr.emit("group", {uid:uid, leave:""});
+  });
 }
