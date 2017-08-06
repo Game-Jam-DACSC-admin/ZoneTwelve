@@ -1,37 +1,29 @@
-const _port = 3000;
-var user = [];
-var io = require('socket.io')({transports: ['websocket']}).attach(_port);
+var group = [];
 
-console.log("Server runing in port "+_port);
+module.exports = function(socket){
+  join(socket, group);
+  group.push(socket);
 
-io.on('connection', function (socket) {
-  join();
-  socket.emit("boop", {uid:socket.id, msg:"Welcome"});
-  user.push(socket);
-
-  socket.on('beep', function(data){
+  socket.on("world", function(data){
     data.uid = socket.id;
-    console.log(data);
-    var index = user.indexOf(socket);
-    user.map(function(usr, i){
-      if(i!=index)
-        usr.emit('boop', data);
+    var index = group.indexOf(socket);
+    group.map(function(usr, i){
+      if(index!=i)
+        usr.emit("world", data);
     })
   });
 
-  socket.on('disconnect', function(data){
-    var index = user.indexOf(socket);
+  socket.on('disconnect', function(){
+    var index = group.indexOf(socket);
     if(index>-1)
-      user.splice(index, 1);
-    console.log('User: '+user.length);
+      group.splice(index, 1);
   });
-  
-  function join(){
-    user.map(function(usr){
-      console.log(usr.id, socket.id);
-      socket.emit("user", {msg:"hello new user", uid:usr.id});
-      usr.emit("user", {msg:"new user join", uid:socket.id});
-    })
-  }
+}
 
-});
+function join(socket, group){
+  // var index = group.indexOf(socket);
+  group.map(function(usr){
+    socket.emit("group", {msg:"hello new user", uid:usr.id});
+    usr.emit("group", {msg:"new user join", uid:socket.id});
+  })
+}
