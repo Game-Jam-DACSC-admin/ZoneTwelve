@@ -1,0 +1,84 @@
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.0]
+    Renderer: Intel(R) HD Graphics (ID=0x46)
+    Vendor:   Intel
+    VRAM:     880 MB
+    Driver:   8.15.10.2993
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\ZTF\Desktop\socketGame_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\ZTF\Desktop\socketGame_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\ZTF\Desktop\socketGame_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\ZTF\Desktop\socketGame_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\ZTF\Desktop\socketGame_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\ZTF\Desktop\socketGame_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\ZTF\Desktop\socketGame_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\ZTF\Desktop\socketGame_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\ZTF\Desktop\socketGame_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\ZTF\Desktop\socketGame_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\ZTF\Desktop\socketGame_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\ZTF\Desktop\socketGame_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.937 seconds
+Platform assembly: C:\Users\ZTF\Desktop\socketGame_Data\Managed\Mono.Security.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.0]
+    Renderer: Intel(R) HD Graphics (ID=0x46)
+    Vendor:   Intel
+    VRAM:     880 MB
+    Driver:   8.15.10.2993
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\ZTF\Desktop\socketGame_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\ZTF\Desktop\socketGame_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\ZTF\Desktop\socketGame_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\ZTF\Desktop\socketGame_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\ZTF\Desktop\socketGame_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\ZTF\Desktop\socketGame_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\ZTF\Desktop\socketGame_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\ZTF\Desktop\socketGame_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\ZTF\Desktop\socketGame_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\ZTF\Desktop\socketGame_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\ZTF\Desktop\socketGame_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\ZTF\Desktop\socketGame_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.046 seconds
+Platform assembly: C:\Users\ZTF\Desktop\socketGame_Data\Managed\Mono.Security.dll (this message is harmless)
+UnloadTime: 1.883571 ms
+<RI> Initializing input.
+<RI> Input initialized.
+(0.0, -2.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<RI> Initialized touch support.
+UnloadTime: 1.980964 ms
+(0.0, -2.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+["jdB_CDoQYM1LNE5KAAAD"] join
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+["zHM9i7V5d2A_1SUCAAAC"] join
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[SocketIO] Close received: close 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1d50 -> priority: 1 
+  Thread -> id: 2074 -> priority: 1 
+[SocketIO] Close received: close 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 17e8 -> priority: 1 
+  Thread -> id: 235c -> priority: 1 

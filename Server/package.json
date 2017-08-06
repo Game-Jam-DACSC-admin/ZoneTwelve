@@ -4,7 +4,8 @@
   "description": "Socket Server",
   "main": "index.js",
   "scripts": {
-    "start": "node bin.js"
+    "start": "node bin.js",
+    "test": "node dev_client.js"
   },
   "repository": {
     "type": "git",

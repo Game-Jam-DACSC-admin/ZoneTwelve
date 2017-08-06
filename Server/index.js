@@ -6,6 +6,10 @@ module.exports = function(socket){
 
   socket.on("world", function(data){
     data.uid = socket.id;
+
+    //格式化個變數值的型態
+    data = dataFormat(data);
+
     var index = group.indexOf(socket);
     group.map(function(usr, i){
       if(index!=i)
@@ -34,4 +38,12 @@ function leave(uid, group){
   group.map(function(usr){
     usr.emit("group", {uid:uid, leave:""});
   });
+}
+
+function dataFormat(data){
+  if(data.x)
+    data.x = Number(data.x);
+  if(data.y)
+    data.y = Number(data.y);
+  return data;
 }
