@@ -56,13 +56,14 @@ public class index : MonoBehaviour {
 
   public void socketWorld(SocketIOEvent data){
     // Debug.Log(data.data["move"]==true);
+    GameObject obj = GameObject.Find(data.data["uid"].ToString());
     if(data.data["move"]){
-      Vector3 position = GameObject.Find(data.data["uid"].ToString()).transform.position;
+      Vector3 position = obj.transform.position;
       float x = float.Parse(data.data["x"].ToString());
       float y = float.Parse(data.data["y"].ToString());
       position.x = x;
       position.y = y;
-      GameObject.Find(data.data["uid"].ToString()).transform.position = position;
+      obj.transform.position = position;
       // Debug.Log(position);
     }
     if(data.data["msg"]){
